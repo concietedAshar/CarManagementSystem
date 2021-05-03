@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailFragment">
+
+
+    <ImageView
+        android:id="@+id/imgOCar"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:visibility="gone"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvOInformation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="serif-monospace"
+        android:padding="4dp"
+        android:text="Owner Information"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tvOName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:fontFamily="serif-monospace"
+        android:text="Name"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tvOMobileNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:fontFamily="serif-monospace"
+        android:text="Mobile No"
+        android:visibility="invisible" />
+</LinearLayout>
