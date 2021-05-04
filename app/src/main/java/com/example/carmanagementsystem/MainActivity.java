@@ -59,7 +59,6 @@ public class MainActivity extends AppCompatActivity implements CarAdapter.CarSel
                 imgOCar.setImageResource(CarData.information.get(index).getImageId());
                 imgOCar.setVisibility(View.VISIBLE);
 
-                Toast.makeText(MainActivity.this, "Clicked Car Info", Toast.LENGTH_SHORT).show();
             }
         });
 

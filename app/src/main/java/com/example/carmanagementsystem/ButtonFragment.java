@@ -12,7 +12,7 @@ import androidx.fragment.app.Fragment;
 
 public class ButtonFragment extends Fragment {
 
-    Button btnCarInfo,btnOwnerInfo;
+
 
     public ButtonFragment() {
         // Required empty public constructor
@@ -30,13 +30,7 @@ public class ButtonFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_button, container, false);
-        btnCarInfo = v.findViewById(R.id.btnCarInfo);
-        btnCarInfo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(getContext(), "Btn Car Info", Toast.LENGTH_SHORT).show();
-            }
-        });
+
         return v;
     }
 }
