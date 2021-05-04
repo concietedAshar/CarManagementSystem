@@ -6,4 +6,7 @@
     <string name="owner_name">Owner Name</string>
     <string name="car_info">Car Info</string>
     <string name="owner_info">Owner Info</string>
+    <string name="mobile_no">Mobile No</string>
+    <string name="name">Name</string>
+    <string name="owner_information">Owner Information</string>
 </resources>

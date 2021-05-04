@@ -40,8 +40,7 @@ public class CarAdapter extends RecyclerView.Adapter<CarAdapter.ViewHolder> {
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         holder.tvCarNameList.setText(information.get(position).getCarName());
         holder.tvOwnerNameList.setText(information.get(position).getName());
-        int[] images = Images.getAllImages();
-        holder.imgLogoList.setImageResource(information.get(position).getImageId());
+         holder.imgLogoList.setImageResource(information.get(position).getImageId());
          holder.itemView.setTag(information.get(position));
 
 
